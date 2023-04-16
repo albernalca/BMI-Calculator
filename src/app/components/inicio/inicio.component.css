@@ -1,0 +1,17 @@
+.fondoItem{
+    background-color: #4078c0;
+    border-radius: 3px;
+}
+mat-grid-tile {
+    background: lightblue;
+    border-radius: 5px;
+  }
+  .mat-mdc-card-content {
+    display: block;
+    padding: 0 16px;
+    height: 130px;
+}
+
+.card{
+    margin-top: 20px;
+}

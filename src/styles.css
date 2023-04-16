@@ -2,14 +2,14 @@
 
 html, body { height: 100%; }
 body { 
-    margin: 0; 
-    font-family: Roboto, "Helvetica Neue", sans-serif;
-    background-color: #0A0E21;
+    margin: 0;
+    background-color: #fafafa;
 }
 .titulo{
     font-family: 'Open Sans', sans-serif;
-    color: white;
+    color: #4078c0;
     text-align: center;
+    font-weight: bold
 }
 .row{
     margin-top: 20px;

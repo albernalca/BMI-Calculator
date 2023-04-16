@@ -12,6 +12,10 @@ import { ResultadoComponent } from './components/resultado/resultado.component';
 //Angular Material
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
+import {MatCardModule} from '@angular/material/card';
+import {MatDividerModule} from '@angular/material/divider';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,11 @@ import {MatIconModule} from '@angular/material/icon';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    MatCardModule,
+    MatDividerModule,
+    MatProgressBarModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
